@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="IGR-ru-Vyh">
+                                <rect key="frame" x="253" y="252" width="95" height="95"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="95" id="6ae-s2-uD2"/>
+                                    <constraint firstAttribute="height" constant="95" id="GP5-pm-c70"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zhishang Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6V-ow-ogI">
+                                <rect key="frame" x="232" y="355" width="136" height="29"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="presented by liuyubobobo @ 2015" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mc4-v2-d4u">
+                                <rect key="frame" x="169" y="571" width="262" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Mc4-v2-d4u" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IqB-XH-le1"/>
+                            <constraint firstItem="q6V-ow-ogI" firstAttribute="top" secondItem="IGR-ru-Vyh" secondAttribute="bottom" constant="8" id="ThZ-tS-joV"/>
+                            <constraint firstItem="q6V-ow-ogI" firstAttribute="centerX" secondItem="IGR-ru-Vyh" secondAttribute="centerX" id="cZj-E7-tqe"/>
+                            <constraint firstItem="IGR-ru-Vyh" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="jY7-f6-vPj"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Mc4-v2-d4u" secondAttribute="bottom" constant="8" id="rlh-jf-aeh"/>
+                            <constraint firstItem="IGR-ru-Vyh" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xYd-ZT-9QJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LOGO.PNG" width="95" height="95"/>
+    </resources>
+</document>

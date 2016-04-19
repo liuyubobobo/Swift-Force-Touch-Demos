@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO.PNG" translatesAutoresizingMaskIntoConstraints="NO" id="Y72-YR-R7C">
+                                <rect key="frame" x="253" y="252" width="95" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="dax-5o-HbU"/>
+                                    <constraint firstAttribute="width" constant="95" id="jmy-zO-MJ1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zhishang Demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qqC-3y-YaR">
+                                <rect key="frame" x="232" y="355" width="136" height="29"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="presented by liuyubobobo @ 2015" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n89-Bv-JJV">
+                                <rect key="frame" x="169" y="559" width="262" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="n89-Bv-JJV" secondAttribute="bottom" constant="20" id="0et-ZT-zpS"/>
+                            <constraint firstItem="qqC-3y-YaR" firstAttribute="centerX" secondItem="Y72-YR-R7C" secondAttribute="centerX" id="2nF-qn-hAI"/>
+                            <constraint firstItem="Y72-YR-R7C" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="FF3-dK-v6V"/>
+                            <constraint firstItem="n89-Bv-JJV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Mbg-QH-4yV"/>
+                            <constraint firstItem="qqC-3y-YaR" firstAttribute="top" secondItem="Y72-YR-R7C" secondAttribute="bottom" constant="8" id="UBq-yn-feM"/>
+                            <constraint firstItem="Y72-YR-R7C" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="UKz-kA-NQP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LOGO.PNG" width="95" height="95"/>
+    </resources>
+</document>
