@@ -28,3 +28,18 @@ Welcome! This repo include three simple but fantasic demos using newest **Cocoa-
 ##Introduction to the 3 Demos 示例介绍
 
 ### Using iPhone as a Scale 将iPhone当做电子秤使用
+
+![Scale Demo Clip](https://github.com/liuyubobobo/Swift-Force-Touch-Demos/blob/master/src/scale_clip.gif?raw=true)
+
+The Above Scale App Demo GIF is cliiped from my online course based the same Demo - <[Play with iPhone 3D-Touch](](http://www.51zhishang.com/course/55.html))>, which was published by 51zhishang([www.51zhishang.com](http://www.51zhishang.com)).
+
+上面的GIF动画展现了Scale(电子秤)Demo的运行效果。这段视屏截自我根据这个Demo录制的在线教育课程[《玩儿转3D Touch》](http://www.51zhishang.com/course/55.html)，由[直上网](http://www.51zhishang.com)发布。
+
+---
+
+### A Small Doodle App Using 3D Touch 使用3D Touch制作的简单涂鸦App
+
+---
+
+### Circle Generator and Animating Using 3D Touch 使用3D Touch制作的小球生成与动画
+
